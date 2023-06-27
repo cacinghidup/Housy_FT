@@ -1,0 +1,295 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* ---------------------------------------------------------------------------------- */
+/* Text Navbar and etc */
+
+.Text {
+  color: black !important;
+}
+
+.url-noDecoration {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.TextFilter {
+  color: black !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* Navbar */
+
+.ContPadZ {
+  padding: 5px !important;
+}
+
+.ButtonSearch {
+  background-color: orange !important;
+  color: white !important;
+}
+
+.Button {
+  /* border: 1px solid white; */
+  border-radius: 5px 5px;
+  width: 125px !important;
+  /* background-color: transparent !important; */
+}
+
+.ButtonReg {
+  /* background-color: orange !important; */
+  border-radius: 5px 5px;
+  width: 125px !important;
+  justify-content: center !important;
+  /* margin-right: 75px !important; */
+}
+
+.NavbarRight {
+  display: flex;
+  /* flex: 50%; */
+  margin-right: 75px;
+}
+
+.NavbarRightUser {
+  display: flex;
+  /* flex: 50%; */
+  margin-right: 150px;
+}
+
+.NavbarLeft {
+  display: flex;
+  /* flex: 50%; */
+}
+
+.MainNav {
+  height: 110px;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.btn-primary {
+  --bs-btn-bg: none !important;
+  --bs-btn-border-color: none !important;
+  --bs-btn-hover-bg: none !important;
+  --bs-btn-hover-border-color: none !important;
+  --bs-btn-active-bg: none !important;
+  --bs-btn-active-border-color: none !important;
+  --bs-btn-disabled-bg: none !important;
+  --bs-btn-disabled-border-color: none !important;
+}
+
+
+/* ---------------------------------------------------------------------------------- */
+/* Main Page */
+
+.left-filter {
+  flex: 20% !important;
+  min-height: 100vh !important;
+}
+
+.right-home {
+  flex: 80% !important;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* Group Tour */
+
+.GridGroupTour {
+  display: grid;
+  grid-template-columns: auto auto;
+  /* align-items: center;s */
+  justify-content: space-evenly;
+}
+
+.GroupCard {
+  width: 30rem !important;
+  height: 26rem 100% !important;
+  /* align-items: center; */
+  display: flex;
+  /* justify-content: space-around; */
+  /* padding: 20px; */
+  margin: auto auto;
+}
+
+.GroupCardImage {
+  width: 100% !important;
+  height: 19rem 100% !important;
+  /* height: 180px !important; */
+  /* margin-top: 25px; */
+}
+
+.GroupCardTitle {
+  text-overflow: ellipsis !important;
+  /* text-decoration: none !important; */
+}
+
+.GroupCardPrice {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Furnished {
+  position:absolute;
+  top:200px;
+  right:350px; 
+  background-color:white; 
+  padding:5px; 
+  border-radius:5px;
+  display: block !important;
+}
+
+.PetAllowed {
+  position:absolute; 
+  top:200px; 
+  right:220px; 
+  background-color:white; 
+  padding:5px; 
+  border-radius:5px;
+  display: block !important;
+}
+
+.SharedAccomodation {
+  position:absolute; 
+  top:200px; 
+  right:20px; 
+  background-color:white; 
+  padding:5px; 
+  border-radius:5px;
+  display: block !important;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* Detail Tour */
+
+.HeaderDetail {
+  color: black;
+  /* text-align: center; */
+  margin-left: 275px;
+}
+
+.CarouselTour {
+  width: 100%;
+  height: 600px;
+  margin: auto;
+  display: flex !important;
+}
+
+.InnerDetail {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.ColorPrice {
+  color: orange;
+}
+
+.carousel {
+  width: 1300px;
+  margin: auto;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* Payment Card */
+
+.BgPayment {
+  height: 90vh;
+  background-color: whitesmoke;
+  padding: 25px 150px 50px 150px;
+}
+
+.BgPaymentProfile {
+  background-color: whitesmoke;
+  padding: 25px 150px 50px 150px;
+}
+
+.PaymentCard {
+  border: 1px solid grey;
+  /* height: 80%; */
+  background-color: white;
+  border-radius: 5px;
+  /* margin: 100px 150px 50px 150px; */
+}
+
+.InfoTrip {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* Profil */
+
+.PersonalInfo {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.BgPersonalInfo {
+  background-color: whitesmoke;
+}
+
+.CardPersonalInfo {
+  padding: 100px 150px 50px 150px;
+}
+
+.HistoryTrip {
+  padding: 25px 100px 50px 100px
+}
+
+.ProfilIcon {
+  margin-right: 20px;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* Add Trip */
+
+.BgAddTrip {
+  background-color: whitesmoke;
+  padding: 100px;
+  margin-bottom: 25px;
+}
